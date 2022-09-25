@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="200.0" prefHeight="200.0"
+            prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.dyshootingrangeproject.AddNewGunController">
+    <children>
+        <VBox maxHeight="200.0" maxWidth="80.0" minHeight="100.0" minWidth="80.0" prefHeight="200.0" prefWidth="80.0" spacing="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label text="Id" />
+                <Label text="Name" />
+                <Label text="Ammo Name" />
+            <Label text="Price per shot" />
+            </children>
+            <padding>
+            <Insets left="5.0" top="5.0" />
+            </padding></VBox>
+        <VBox layoutX="101.0" layoutY="-2.0" maxHeight="200.0" maxWidth="120.0" minHeight="100.0" minWidth="120.0" prefHeight="200.0" prefWidth="120.0" spacing="7.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="0.0">
+            <children>
+            <Label fx:id="Lid" text="0" />
+                <TextField fx:id="TFname">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin></TextField>
+            <ComboBox fx:id="CBammoName" prefWidth="150.0" />
+            <TextField fx:id="TFpricePerShot" />
+            </children>
+            <padding>
+                <Insets left="5.0" right="5.0" top="5.0" />
+            </padding></VBox>
+    </children>
+</AnchorPane>

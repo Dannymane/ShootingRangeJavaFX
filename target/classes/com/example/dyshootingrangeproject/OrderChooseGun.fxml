@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dyshootingrangeproject.OrderChooseGunController">
+    <children>
+        <VBox maxHeight="200.0" maxWidth="100.0" minHeight="100.0" minWidth="85.0" prefHeight="200.0" prefWidth="86.0" spacing="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label text="Gun" />
+            </children>
+            <padding>
+            <Insets left="10.0" top="10.0" />
+            </padding></VBox>
+        <VBox layoutX="85.0" layoutY="-2.0" maxHeight="200.0" maxWidth="157.0" minHeight="72.0" minWidth="120.0" prefHeight="72.0" prefWidth="152.0" spacing="3.0" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <ComboBox fx:id="CBgun" prefWidth="150.0" />
+            </children>
+            <padding>
+                <Insets left="5.0" right="5.0" top="7.0" />
+            </padding></VBox>
+    </children>
+</AnchorPane>

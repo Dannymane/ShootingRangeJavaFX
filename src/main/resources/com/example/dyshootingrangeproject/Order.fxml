@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="200.0" minWidth="300.0" prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dyshootingrangeproject.OrderController">
+    <children>
+        <VBox maxHeight="200.0" maxWidth="100.0" minHeight="100.0" minWidth="85.0" prefHeight="200.0" prefWidth="86.0" spacing="15.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <Label text="Gun" />
+                <Label text="Shots" />
+                <Label text="Price per shot" />
+            </children>
+            <padding>
+                <Insets left="10.0" top="10.0" />
+            </padding>
+         <opaqueInsets>
+            <Insets top="10.0" />
+         </opaqueInsets></VBox>
+        <VBox layoutX="85.0" layoutY="-2.0" maxHeight="200.0" maxWidth="157.0" minHeight="72.0" minWidth="120.0" prefHeight="72.0" prefWidth="152.0" spacing="3.0" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="0.0">
+            <children>
+            <Label fx:id="LchosenGun" text="Label" />
+                <TextField fx:id="TFshots">
+                    <VBox.margin>
+                        <Insets top="5.0" />
+                    </VBox.margin></TextField>
+            </children>
+            <padding>
+                <Insets left="5.0" right="5.0" top="7.0" />
+            </padding></VBox>
+        <VBox layoutX="111.0" layoutY="80.0" prefHeight="120.0" prefWidth="67.0" spacing="15.0" AnchorPane.leftAnchor="85.0" AnchorPane.topAnchor="70.0">
+            <children>
+                <Label fx:id="LpricePerShot" text="Ammo Name">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin></Label>
+            </children>
+            <padding>
+                <Insets left="10.0" top="5.0" />
+            </padding>
+        </VBox>
+        <VBox layoutX="137.0" layoutY="71.0" prefHeight="128.0" prefWidth="100.0" spacing="15.0" AnchorPane.leftAnchor="150.0" AnchorPane.topAnchor="70.0">
+            <padding>
+                <Insets top="5.0" />
+            </padding>
+            <children>
+                <Label text="PLN/shot" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>

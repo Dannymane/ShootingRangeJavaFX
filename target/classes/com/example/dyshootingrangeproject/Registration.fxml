@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="140.0" minWidth="200.0" prefHeight="140.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dyshootingrangeproject.RegisterController">
+   <children>
+      <VBox maxHeight="100.0" maxWidth="80.0" minHeight="100.0" minWidth="80.0" prefHeight="100.0" prefWidth="99.0" spacing="10.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label text="Name" />
+            <Label text="Surname" />
+            <Label text="Document id" />
+         </children>
+         <padding>
+            <Insets left="10.0" top="10.0" />
+         </padding></VBox>
+      <VBox layoutX="101.0" layoutY="-2.0" maxHeight="100.0" maxWidth="120.0" minHeight="100.0" minWidth="120.0" prefHeight="116.0" prefWidth="99.0" spacing="2.0" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="TFname" />
+            <TextField fx:id="TFsurname" />
+            <TextField fx:id="TFdocumentId" />
+         </children>
+         <padding>
+            <Insets left="5.0" right="5.0" top="5.0" />
+         </padding></VBox>
+   </children>
+</AnchorPane>

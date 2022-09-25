@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dyshootingrangeproject.AdminMainController">
+   <children>
+      <AnchorPane prefHeight="137.0" prefWidth="600.0">
+         <children>
+            <Button layoutX="57.0" layoutY="62.0" mnemonicParsing="false" onAction="#BclientListAct" text="Client List" />
+            <Button fx:id="BAddNewGun" layoutX="200.0" layoutY="61.0" mnemonicParsing="false" onAction="#BAddNewGunAct" text="Add new gun" />
+            <Button fx:id="Bregister" layoutX="57.0" layoutY="30.0" mnemonicParsing="false" onAction="#BregisterAct" text="Register new client" />
+            <Button fx:id="BaddNewAmmunition" layoutX="200.0" layoutY="29.0" mnemonicParsing="false" onAction="#BaddNewAmmunitionAct" text="Add new ammunition" />
+            <Button layoutX="450.0" layoutY="14.0" mnemonicParsing="false" onAction="#BreturnAct" text="Return to main window" />
+         </children>
+      </AnchorPane>
+      <ScrollPane prefHeight="306.0" prefWidth="600.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="270.0" prefWidth="652.0">
+               <children>
+                  <Label layoutX="106.0" layoutY="1.0" text="Storage" AnchorPane.leftAnchor="106.0" AnchorPane.topAnchor="1.0">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="L1name" layoutX="23.0" layoutY="208.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="200.0" />
+                  <Button fx:id="B1A" layoutX="16.0" layoutY="226.0" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#B1Act" prefHeight="25.0" prefWidth="25.0" text="A" visible="false" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="220.0" />
+                  <Label fx:id="L1amount" layoutX="28.0" layoutY="25.0" text="1" visible="false" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="30.0" />
+                  <Label fx:id="L2amount" layoutX="79.0" layoutY="25.0" text="2" visible="false" AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="30.0" />
+                  <Label fx:id="L2name" layoutX="79.0" layoutY="208.0" visible="false" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="200.0" />
+                  <Label fx:id="L3amount" layoutX="153.0" layoutY="25.0" text="3" visible="false" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="30.0" />
+                  <Label fx:id="L3name" layoutX="153.0" layoutY="208.0" visible="false" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="200.0" />
+                  <Label fx:id="L4amount" layoutX="222.0" layoutY="25.0" text="4" visible="false" AnchorPane.leftAnchor="180.0" AnchorPane.topAnchor="30.0" />
+                  <Label fx:id="L4name" layoutX="222.0" layoutY="208.0" visible="false" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="200.0" />
+                  <ProgressBar fx:id="PB2" layoutX="9.0" layoutY="106.0" maxHeight="25.0" maxWidth="150.0" minHeight="25.0" minWidth="150.0" prefHeight="25.0" prefWidth="150.0" progress="0.0" rotate="270.0" visible="false" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="110.0" />
+                  <ProgressBar fx:id="PB3" layoutX="105.0" layoutY="126.0" maxHeight="25.0" maxWidth="150.0" minHeight="25.0" minWidth="150.0" prefHeight="25.0" prefWidth="150.0" progress="0.0" rotate="270.0" visible="false" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="110.0" />
+                  <ProgressBar fx:id="PB4" layoutX="188.0" layoutY="126.0" maxHeight="25.0" maxWidth="150.0" minHeight="25.0" minWidth="150.0" prefHeight="25.0" prefWidth="150.0" progress="0.0" rotate="270.0" visible="false" AnchorPane.leftAnchor="110.0" AnchorPane.topAnchor="110.0" />
+                  <Button fx:id="B2A" layoutX="72.0" layoutY="229.0" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#B2Act" prefHeight="25.0" prefWidth="25.0" text="A" visible="false" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="220.0" />
+                  <Button fx:id="B3A" layoutX="161.0" layoutY="217.0" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#B3Act" text="A" visible="false" AnchorPane.leftAnchor="120.0" AnchorPane.topAnchor="220.0" />
+                  <Button fx:id="B4A" layoutX="274.0" layoutY="214.0" maxHeight="25.0" maxWidth="25.0" minHeight="25.0" minWidth="25.0" mnemonicParsing="false" onAction="#B4Act" text="A" visible="false" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="220.0" />
+                  <ProgressBar fx:id="PB1" layoutX="250.0" layoutY="126.0" maxHeight="25.0" maxWidth="150.0" minHeight="25.0" minWidth="150.0" prefWidth="150.0" progress="0.0" rotate="270.0" visible="false" AnchorPane.leftAnchor="-40.0" AnchorPane.topAnchor="110.0" />
+                  <ListView fx:id="LVorderList" layoutX="319.0" layoutY="32.0" prefHeight="216.0" prefWidth="246.0" />
+                  <Label layoutX="399.0" layoutY="1.0" text="Order list">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="493.0" layoutY="1.0" mnemonicParsing="false" onAction="#BrefreshAct" text="Refresh" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+   </children>
+</VBox>
